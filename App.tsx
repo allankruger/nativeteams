@@ -6,8 +6,8 @@ import {
   Roboto_700Bold,
 } from "@expo-google-fonts/roboto";
 
-import Loading from "./src/components/Loading";
-import Groups from "./src/screens/Groups";
+import { Loading } from "./src/components/Loading";
+import { Groups } from "./src/screens/Groups";
 import theme from "./src/theme";
 
 export default function App() {

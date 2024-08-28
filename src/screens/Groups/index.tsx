@@ -1,12 +1,10 @@
 import { Container } from "./styles";
-import Header from "../../components/Header";
+import { Header } from "../../components/Header";
 
-const Groups = () => {
+export const Groups = () => {
   return (
     <Container>
       <Header />
     </Container>
   );
 };
-
-export default Groups;
