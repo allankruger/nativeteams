@@ -1,13 +1,7 @@
-import { StyleSheet, Text, View } from "react-native";
+import { Container } from "./styles";
 
 const Groups = () => {
-  return (
-    <View>
-      <Text>Groups</Text>
-    </View>
-  );
+  return <Container></Container>;
 };
 
 export default Groups;
-
-const styles = StyleSheet.create({});
