@@ -4,7 +4,7 @@ type Props = {
   showBackButton?: boolean;
 };
 
-export const Header = ({ showBackButton = false }: Props) => {
+export function Header({ showBackButton = false }: Props) {
   return (
     <Container>
       {showBackButton && (
@@ -15,4 +15,4 @@ export const Header = ({ showBackButton = false }: Props) => {
       <Logo source={require("../../assets/logo.png")} />
     </Container>
   );
-};
+}
