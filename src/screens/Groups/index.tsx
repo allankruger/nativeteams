@@ -3,7 +3,7 @@ import { Header } from "../../components/Header";
 import { ScreenTitle } from "../../components/ScreenTitle";
 import { TeamCard } from "../../components/TeamCard";
 
-export const Groups = () => {
+export function Groups() {
   return (
     <Container>
       <Header />
@@ -15,4 +15,4 @@ export const Groups = () => {
       <TeamCard title="Team 5" />
     </Container>
   );
-};
+}
